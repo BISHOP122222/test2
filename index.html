@@ -9,6 +9,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
     <title>JUMIA</title>
   </head>
   <body>
@@ -45,13 +47,13 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
                     <button class="btn btn-warning" type="submit" >Search</button>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">hi.Eva</a>
+                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-person-check">hi.Eva</a>
                       </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">help</a>
+                    <a class="nav-link" href="#"><i class="bi bi-heart">help</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">cart</a>
+                    <a class="nav-link" href="#"><i class="bi bi-cart">cart</a>
                   </li>
                   
                   
@@ -80,7 +82,7 @@
                     role="tab"
                     aria-controls="v-pills-home"
                     aria-selected="true"
-                  >
+                  ><i class="bi bi-person-circle"></i>
                    MY JUMIA ACCOUNT
                   </button>
                   <button
@@ -92,7 +94,7 @@
                     role="tab"
                     aria-controls="v-pills-profile"
                     aria-selected="false"
-                  >
+                  ><i class="bi bi-briefcase-fill"></i>
                     ORDERS
                   </button>
                   <button
@@ -104,7 +106,7 @@
                     role="tab"
                     aria-controls="v-pills-messages"
                     aria-selected="false"
-                  >
+                  ><i class="bi bi-envelope"></i>
                     INBOX
                   </button>
                   <button
@@ -116,7 +118,7 @@
                     role="tab"
                     aria-controls="v-pills-settings"
                     aria-selected="false"
-                  >
+                  ><i class="bi bi-bell"></i>
                     PENDING ADDRESS
                   </button>
                   <button
@@ -128,7 +130,7 @@
                     role="tab"
                     aria-controls="v-pills-settings"
                     aria-selected="false"
-                  >
+                  ><i class="bi bi-dice-6-fill"></i>
                     VOUCHERS
                   </button>
                   <button
@@ -140,7 +142,7 @@
                     role="tab"
                     aria-controls="v-pills-settings"
                     aria-selected="false"
-                  >
+                  ><i class="bi bi-download"></i>
                     SEND ITEMS
                   </button>
                   <button
@@ -163,7 +165,7 @@
                     role="tab"
                     aria-controls="v-pills-settings"
                     aria-selected="false"
-                  >
+                  ><i class="bi bi-binoculars"></i>
                     RECENTLY VIEWED
                   </button>
                   <button
@@ -175,7 +177,7 @@
                     role="tab"
                     aria-controls="v-pills-settings"
                     aria-selected="false"
-                  >
+                  ><i class="bi bi-gear"></i>
                     ACCOUNT MANAGEMENT
                   </button>
                   <button
@@ -187,7 +189,7 @@
                     role="tab"
                     aria-controls="v-pills-settings"
                     aria-selected="false"
-                  >
+                  ><i class="bi bi-book"></i>
                     ADDRESS BOOK
                   </button>
                   <button
@@ -199,7 +201,7 @@
                   role="tab"
                   aria-controls="v-pills-settings"
                   aria-selected="false"
-                >
+                ><i class="bi bi-newspaper"></i>
                  NEWS LETTER PREFERENCE
                 </button>
                 </div>
@@ -211,14 +213,12 @@
                     aria-labelledby="v-pills-home-tab"
                   >
                   
-                  <div  >
-                    <p>ORDERS</p>
-                  
-                    <div class="d-flex align-items-start">
-
-                   <p  class="text-warning bg-LIGHT" >OPEN-ORDERS(22)</p>
-                   <p  class="text-warning bg-LIGHT" >OPEN-ORDERS(22)</p>
-                </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm12 col-dm6 col-lg"><p  class="text-warning bg-LIGHT" >OPEN-ORDERS(22)</p></div>
+                      <div class="col-sm12 col-dm6 col-lg"><p  class="text-warning bg-LIGHT" >OPEN-ORDERS(22)</p></div>
+                    </div>
+                  </div>
                 
 
 
@@ -234,8 +234,9 @@
                       <div class="col-md-8">
                         <div class="card-body">
                           <h5 class="card-title">daiper pad</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted"><p class="text-light bg-warning">DELIVERED</p></small></p>
+                          <p class="card-text">This is a bit longer.</p>
+                          <button class="btn btn-warning">Delivered</button>
+                        <p class="card-text"> On 8-11-2023</p>
                         </div>
                       </div>
                     </div>
@@ -249,8 +250,9 @@
                       <div class="col-md-8">
                         <div class="card-body">
                           <h5 class="card-title">flask</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted"><p class="text-light bg-warning">DELIVERED</p></small></p>
+                          <p class="card-text">This is a wider longer.</p>
+                          <<button class="btn btn-warning">Delivered</button>
+                        <p class="card-text"> On 8-11-2023</p>
                         </div>
                       </div>
                     </div>
@@ -264,8 +266,9 @@
                       <div class="col-md-8">
                         <div class="card-body">
                           <h5 class="card-title">ROLEX</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted"><p class="text-light bg-warning">DELIVERED</p></small></p>
+                          <p class="card-text">This is a wider longer.</p>
+                          <<button class="btn btn-warning">Delivered</button>
+                        <p class="card-text"> On 8-11-2023</p>
                         </div>
                       </div>
                     </div>
@@ -280,8 +283,9 @@
                       <div class="col-md-8">
                         <div class="card-body">
                           <h5 class="card-title">HOUSE</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">    <p class="text-light bg-warning">DELIVERED</p></small></p>
+                          <p class="card-text">This is a wider longer.</p>
+                          <<button class="btn btn-warning">Delivered</button>
+                        <p class="card-text"> On 8-11-2023</p>
                         </div>
                       </div>
                     </div>
